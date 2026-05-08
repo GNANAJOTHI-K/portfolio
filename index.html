@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gnanajothi K | Flutter Developer & UI/UX Designer</title>
+    <meta name="description" content="Portfolio of Gnanajothi K, a passionate Flutter Developer & UI/UX Designer based in Bangalore, crafting scalable real-time mobile apps and stunning interfaces.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Particle Background (using Vanilla JS) -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Header / Navigation -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">
+                <span class="gradient-text">Gnanajothi. K</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link cta-btn">Let's Talk</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="container">
+            <div class="hero-content fade-in-up">
+                <h3>Hello, I'm</h3>
+                <h1 class="hero-title">Gnanajothi K</h1>
+                <h2 class="hero-subtitle">
+                    I build <span class="gradient-text type-effect"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-desc">
+                    A passionate developer and designer with hands-on experience in building scalable, real-time mobile applications using modern architectures and creating seamless user experiences.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/gnanajothi-k" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:jothithecreator1233@gmail.com?subject=Let's Connect - Portfolio Inquiry" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-in-up" style="animation-delay: 0.2s;">
+                <div class="pulse-ring"></div>
+                <div class="hero-image">
+                    <!-- Placeholder, replace with actual transparent portrait image -->
+                    <img src="profile.png" alt="Gnanajothi K - Portrait" id="profile-pic" onerror="this.src='https://ui-avatars.com/api/?name=Gnanajothi+K&background=0D8ABC&color=fff&size=512'">
+                </div>
+                <!-- Floating tech icons -->
+                <div class="float-icon icon-flutter"><i class="fa-solid fa-mobile-screen"></i></div>
+                <div class="float-icon icon-uiux"><i class="fa-solid fa-pen-nib"></i></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container section">
+            <div class="section-header fade-in">
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text glass-card fade-in">
+                    <h3>Career Objective</h3>
+                    <p>Flutter developer and UI/UX designer with hands-on experience in building scalable, real-time mobile applications using modern architectures. Skilled in creating high-performance apps with clean architecture, state management, and seamless user experience.</p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt gradient-text"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Bangalore, Karnataka 560072</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt gradient-text"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <span>+91 99522 95538</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education glass-card fade-in" style="animation-delay: 0.2s;">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>B.E. – Computer Science Engineering</h4>
+                                <span>Study World College of Engineering, Coimbatore</span>
+                                <div class="date-gpa">
+                                    <span class="date">2021 – 2025</span>
+                                    <span class="gpa">CGPA: 8.0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Higher Secondary (HSC)</h4>
+                                <span>Tamil Nadu State Board</span>
+                                <div class="date-gpa">
+                                    <span class="gpa">Score: 58%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Secondary School (SSLC)</h4>
+                                <span>Tamil Nadu State Board</span>
+                                <div class="date-gpa">
+                                    <span class="gpa">Score: 79.4%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="container section">
+            <div class="section-header fade-in">
+                <h2>Professional <span class="gradient-text">Experience</span></h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="timeline-large fade-in">
+                <div class="timeline-item-large">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="glass-card experience-card">
+                        <div class="exp-header">
+                            <div>
+                                <h3>Flutter Developer (Mobile App Developer)</h3>
+                                <h4>Innomatrics Technologies, Bangalore</h4>
+                            </div>
+                            <span class="date-badge">Dec 2025 – Present</span>
+                        </div>
+                        <ul class="task-list">
+                            <li>Developing production-level apps using Flutter with Clean Architecture principles</li>
+                            <li>Implementing GetX for efficient state management, routing, and dependency injection</li>
+                            <li>Working with Firebase (Auth, Firestore, FCM) for real-time features</li>
+                            <li>Integrating Google Maps APIs for location-based services</li>
+                            <li>Writing scalable and maintainable code with modular architecture</li>
+                            <li>Collaborating with UI/UX teams to deliver high-quality user experiences</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container section">
+            <div class="section-header fade-in">
+                <h2>Featured <span class="gradient-text">Projects</span></h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card fade-in">
+                    <div class="project-content">
+                        <h3>Sadhana Cart</h3>
+                        <p class="project-type">E-commerce Application</p>
+                        <div class="store-links">
+                            <a href="https://play.google.com/store/apps/details?id=com.innomatrics.sadhana_cart&hl=es" target="_blank" class="store-badge"><i class="fab fa-google-play"></i> Play Store</a>
+                            <a href="https://apps.apple.com/in/app/sadhana-cart-online-shopping/id6751406762" target="_blank" class="store-badge"><i class="fab fa-apple"></i> App Store</a>
+                        </div>
+                        <ul class="task-list slim">
+                            <li>Developed a scalable e-commerce mobile application with complete purchase flow</li>
+                            <li>Integrated Razorpay payment gateway for secure transactions</li>
+                            <li>Implemented Provider for efficient state management</li>
+                            <li>Built product listing, cart, checkout, review & rating system, and seller-side module</li>
+                            <li>Used Firebase Authentication & Firestore for real-time data handling</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Flutter</span><span>Firebase</span><span>Razorpay</span><span>Provider</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card fade-in" style="animation-delay: 0.1s;">
+                    <div class="project-content">
+                        <h3>Mi Desi</h3>
+                        <p class="project-type">Multi-Service Commerce Platform</p>
+                        <ul class="task-list slim">
+                            <li>Building a multi-service app combining mobile recharge and medical product sales</li>
+                            <li>Implemented Provider for managing app state across multiple services</li>
+                            <li>Designed e-commerce flow and recharge plan system</li>
+                            <li>Focused on clean and intuitive UX for seamless navigation</li>
+                            <li>Structured backend using Firebase for auth and real-time updates</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Flutter</span><span>Firebase</span><span>Figma</span><span>Provider</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card fade-in" style="animation-delay: 0.2s;">
+                    <div class="project-content">
+                        <h3>Dump & Drop</h3>
+                        <p class="project-type">Logistics & Ride Booking Platform</p>
+                        <ul class="task-list slim">
+                            <li>Developing a logistics and ride booking platform with Clean Architecture</li>
+                            <li>Implemented OTP-based authentication using Firebase</li>
+                            <li>Designed role-based access system (User, Driver, Admin)</li>
+                            <li>Integrated Google Maps for location-based ride tracking</li>
+                            <li>Used GetX for state management, routing, and dependency injection</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Flutter</span><span>Firebase</span><span>Google Maps API</span><span>GetX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container section">
+            <div class="section-header fade-in">
+                <h2>Technical <span class="gradient-text">Skills</span></h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="skills-wrapper">
+                <div class="skills-category glass-card fade-in">
+                    <h3><i class="fas fa-mobile-alt gradient-text"></i> Mobile App Development</h3>
+                    <div class="skill-tags">
+                        <span>Flutter</span><span>Dart</span><span>Firebase Auth</span><span>Firestore</span><span>Firebase Cloud Messaging</span>
+                    </div>
+                </div>
+
+                <div class="skills-category glass-card fade-in" style="animation-delay: 0.1s;">
+                    <h3><i class="fas fa-layer-group gradient-text"></i> Architecture & State Mgt.</h3>
+                    <div class="skill-tags">
+                        <span>Clean Architecture</span><span>Provider</span><span>GetX</span><span>setState</span>
+                    </div>
+                </div>
+
+                <div class="skills-category glass-card fade-in" style="animation-delay: 0.2s;">
+                    <h3><i class="fas fa-palette gradient-text"></i> UI/UX & Frontend</h3>
+                    <div class="skill-tags">
+                        <span>Figma</span><span>Canva</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="skills-category glass-card fade-in" style="animation-delay: 0.3s;">
+                    <h3><i class="fas fa-tools gradient-text"></i> Tools & APIs</h3>
+                    <div class="skill-tags">
+                        <span>Git & GitHub</span><span>VS Code</span><span>Vercel</span><span>REST API</span><span>Razorpay API</span><span>Google Maps API</span><span>JSON Handling</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extras Section -->
+        <section id="extras" class="container section">
+            <div class="extras-grid">
+                <div class="glass-card fade-in">
+                    <h3>Areas of Interest</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle gradient-text"></i> UI/UX Development</li>
+                        <li><i class="fas fa-check-circle gradient-text"></i> Mobile App Development</li>
+                        <li><i class="fas fa-check-circle gradient-text"></i> Front-end Development</li>
+                        <li><i class="fas fa-check-circle gradient-text"></i> Digital Marketing</li>
+                    </ul>
+                </div>
+                
+                <div class="glass-card fade-in" style="animation-delay: 0.1s;">
+                    <h3>Personal Skills</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle gradient-text"></i> Quick Learner</li>
+                        <li><i class="fas fa-check-circle gradient-text"></i> Good Observer</li>
+                        <li><i class="fas fa-check-circle gradient-text"></i> Adaptive to New Environments</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card fade-in" style="animation-delay: 0.2s;">
+                    <h3>Extracurricular Activities</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-star gradient-text"></i> Lead Organizer – College Events</li>
+                        <li><i class="fas fa-star gradient-text"></i> Team Leader – "Aesthetic Creators" Startup</li>
+                        <li><i class="fas fa-star gradient-text"></i> Webmaster – IEEE Association</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container section">
+            <div class="section-header fade-in">
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="contact-box glass-card fade-in">
+                <div class="contact-text">
+                    <h3>Let's build something amazing together</h3>
+                    <p>Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                </div>
+                <div class="contact-methods">
+                    <a href="mailto:jothithecreator1233@gmail.com?subject=Let's Connect - Portfolio Inquiry" class="btn btn-primary bounce-on-hover">
+                        <i class="fas fa-envelope"></i> jothithecreator1233@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/gnanajothi-k" target="_blank" class="btn btn-secondary bounce-on-hover">
+                        <i class="fab fa-linkedin"></i> Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo gradient-text">Gnanajothi. K</div>
+            <p>&copy; <span id="year"></span> Gnanajothi K. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
