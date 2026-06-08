@@ -433,6 +433,16 @@ header nav {
     font-size: 1.1rem;
 }
 
+.info-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.info-link:hover {
+    color: var(--accent-1);
+}
+
 /* Timeline */
 .timeline {
     position: relative;
